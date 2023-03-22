@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background-color: #1d61dd;
+    color: white;
+}
+
+header {
+    background: no-repeat center/cover url("assets/praia_tailandia_-1-1-1200x900.jpg"); 
+    height: calc(100vh - 200px);
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
+}
+
+header nav ul {
+    display: flex;
+
+}
+
+header nav li {
+    margin: 0 15px;
+    color: black;
+}
+
+header nav p {
+    font-weight: bold;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content {
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
